@@ -27,3 +27,10 @@ jobs:
 
       - name: Run report script
         run: python monthly_report.py
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: monthly-issues-report
+          path: monthly_issues_report.csv
+
