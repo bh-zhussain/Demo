@@ -11,7 +11,7 @@ jobs:
 
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      REPO: ZainabHussain/Demo  # Replace with your actual repo name
+      REPO: bh-zhussain/Demo  # Replace with your actual repo name
 
     steps:
       - name: Checkout repository
