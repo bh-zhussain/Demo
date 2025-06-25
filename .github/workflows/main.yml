@@ -26,4 +26,4 @@ jobs:
         run: pip install requests pandas
 
       - name: Run report script
-        run: python scripts/monthly_report.py
+        run: python monthly_report.py
