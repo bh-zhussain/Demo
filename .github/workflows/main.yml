@@ -26,7 +26,7 @@ jobs:
         run: pip install requests pandas
 
       - name: Run report script
-        run: python .github/scripts/monthly_report.py
+        run: python monthly_report.py
 
       - name: Upload report as artifact
         uses: actions/upload-artifact@v4
